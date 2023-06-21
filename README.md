@@ -13,7 +13,7 @@ npm i electron --save
 # Step 2
 Run ``build-win.bat`` or another (OS)
 # Step 2.1
-Copy "assets" to **release-builds**
+Copy "assets" in **release-builds**
 
 # Step 3
 Go in **release-builds**
