@@ -53,12 +53,14 @@ let appTray = null;
 let isTray = false;
 
 async function getIP() {
-    let url = "http://ip-jobs.staff-base.spb.ru/ip.cgi";
-    const response = await fetch(url);
-    const jsonData = await response.text();
-    let data = jsonData.split("\n");
-    const IP = data[0].replace('var IP="', "").replace('";', "");
-    return IP;
+    try {
+        let url = "http://ip-jobs.staff-base.spb.ru/ip.cgi";
+        const response = await fetch(url);
+        const jsonData = await response.text();
+        let data = jsonData.split("\n");
+        const IP = data[0].replace('var IP="', "").replace('";', "");
+        return IP;
+    } catch { return undefined }
 }
 
 
