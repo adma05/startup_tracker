@@ -2,7 +2,9 @@
 Enter each command in turn into the console (cmd), opening it in the application folder
 ```
 npm i fs
-
+npm i path
+npm i url
+npm i child_process
 npm i os 
 
 npm i electron
