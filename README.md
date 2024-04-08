@@ -1,5 +1,5 @@
 # Step 1
-Enter each command in turn into the console (cmd), opening it in the application folder
+Enter each command in turn into the console (cmd), opening it in the application folder **or** run *require.cmd*
 ```
 npm i fs
 npm i path
