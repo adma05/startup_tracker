@@ -1,5 +1,12 @@
-# Step 1
-Enter each command in turn into the console (cmd), opening it in the application folder **or** run *require.cmd*
+# Windows StartUp Tracker
+This application will allow you to track who started your PC and when, even if the input was not played under your username
+<br>
+<br>
+<br>
+> [!IMPORTANT]
+> **Step 1** <br>
+> Enter each command in turn into the console (cmd), opening it in the application folder **or** run *require.cmd*
+
 ```
 npm i fs
 npm i path
@@ -12,10 +19,18 @@ npm i electron-packager
 npm i electron --save
 ```
 
-# Step 2
-Run ``build-win.bat`` or another (OS)
-# Step 2.1
-Copy "assets" in **release-builds**
 
-# Step 3
-Go in **release-builds**
+> [!NOTE]
+> **Step 2** <br>
+> Run ``build-win.bat`` or another (OS)
+
+
+> [!WARNING]
+> **Step 2.5** <br>
+> Copy "assets" in **release-builds**
+
+
+> [!NOTE]
+> **Step 3** <br>
+> Go in **release-builds**
+
