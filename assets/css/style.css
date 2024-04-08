@@ -12,6 +12,17 @@ body {
     overflow-y: auto;
 }
 
+.update {
+    color: lime;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 14px;
+    font-family: monospace;
+    opacity: 0.5;
+    user-select: none;
+}
+
 #title {
     padding: 15px;
     font-weight: 100;
@@ -57,4 +68,10 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+#table #list .ip-link.active {
+    color: rgb(198, 212, 255) !important;
+    text-decoration: underline;
+    cursor: pointer;
+    user-select: none;
 }
